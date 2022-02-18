@@ -1,0 +1,145 @@
+/* .divHome{
+    color:rgb(165, 42, 42);
+    justify-content: center;
+}
+
+.title{
+    color:rgb(78, 14, 14);
+}
+
+
+
+.card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 4px;
+    
+}  */
+
+.buttonRechargue{
+    border-radius: 5px;
+    margin-left:10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    width: 70px;
+    height: 120px;
+    position: absolute;
+    left: -11vw;
+    top:29vh;
+}
+
+.buttonCreate {
+    border-radius: 5px;
+    margin-left:10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    width: 90px;
+    height: 120px;
+    position: absolute;
+    top: 40px ;
+    right: 2.5px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 4px;
+}
+.loading {
+    opacity:0.7;
+    filter:alpha(opacity=70);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height:200px;
+    position: absolute;
+    left: 0vw;
+    top: 10vh;
+}
+
+.paginate{
+
+    position: fixed;
+    
+    bottom: 0;
+    
+    width: 100%;
+    
+    height: 32px;
+    
+    padding-bottom: 16px;
+    padding-top: 10px;
+    
+    background: rgb(153, 153, 153);
+    
+    background: rgba(134, 134, 134, 0.9);
+    
+    border-top: 2px solid rgb(69, 4, 99);
+    
+    z-index:2000;
+    
+    }
+
+
+
+.divHome{
+    margin: auto;
+    overflow: hidden;
+}
+
+.navHome {
+    
+    display: block;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index:10;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    
+
+    /* position: fixed; */
+}
+.divIngreso{
+    background-image: url("../../images/ingreso-landing.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 200px;
+      height:150px;
+      position: absolute;
+      left: 0vw;
+      top: 10vh;
+      transition: transform .5s ease-in-out;
+  }
+  .divIngreso:hover{
+    transform: rotate(720deg) scale(1.5);
+  }
+/* body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/15/16/17/hands-600497_960_720.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */

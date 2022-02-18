@@ -1,0 +1,23 @@
+/* 
+ .inputSearch{
+    width: 30%;
+  border-radius: 8rem;
+  margin-right: 0.5rem;
+  padding-left: 0.6rem;
+  border-style: none;
+ }
+ */
+ .buttonSearch {
+    border-radius: 5px;
+    margin-left:10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: -115px;
+    top:25px ;
+ }
