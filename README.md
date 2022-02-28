@@ -4,9 +4,7 @@
 
 # Individual Project - Henry Countries
 
-<p align="left">
-  <img height="200" src="./countries.png" />
-</p>
+[![Alt text](https://img.youtube.com/vi/fNoajLCDSFE/0.jpg)](https://www.youtube.com/watch?v=fNoajLCDSFE)
 
 ## Objetivos del Proyecto
 
