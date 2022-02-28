@@ -78,7 +78,7 @@ router.get("/", async (req, res) => {
 //
 
 router.get("/:id", async (req, res) => {
-  await apiGetData();
+  // await apiGetData();
   const { id } = req.params;
   try {
     const idCountry = await Country.findOne({
@@ -97,5 +97,26 @@ router.get("/:id", async (req, res) => {
     return res.status(404).send(`Pais no encontrado`, error);
   }
 });
+
+router.post('/', async (req,res,next) => {
+  try {
+  const {idApi, name, img, continent, capital, subregion, area, population} = req.body;
+  const country = await Country.create({
+      idApi: idApi,
+      name: name,
+      img: img,
+      continent: continent,
+      capital:capital,
+      subregion: subregion,
+      area: area,
+      population: population
+  })
+  return res.status(200).json(country)
+} catch (error) {
+  next (error)  
+}
+  
+  
+})
 
 module.exports = router;

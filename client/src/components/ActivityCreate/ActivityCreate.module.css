@@ -94,7 +94,18 @@ select:focus{ outline: none;}
   /* top:5vh; */
 }
 
-.buttonDelete button {
-  cursor: pointer;
+.buttonDelete  {
+  width: 100px;
+  height: 80px;
+  border: 1px solid #000;
+  float: left;
+  display: grid;
+  margin: 10px;
+  flex-wrap: wrap;
+  margin: 4px;
+  background-color: #d9d9d9 ;
+}
 
+.buttonDelete button{
+  cursor: pointer;
 }

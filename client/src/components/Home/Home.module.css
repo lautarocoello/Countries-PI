@@ -26,13 +26,14 @@
 }  */
 
 .buttonRechargue{
+    /* border: 2px solid black; */
     border-radius: 5px;
     margin-left:10rem;
     font-size: 1rem;
     font-weight: bold;
     border-style: none;
     cursor: pointer;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     width: 70px;
     height: 120px;
     position: absolute;
@@ -46,7 +47,7 @@
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     width: 90px;
     height: 120px;
     position: absolute;

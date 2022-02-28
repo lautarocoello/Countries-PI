@@ -89,7 +89,7 @@ const CreateActivity = () => {
   return (
     <div className={style.divForm}>
       <h1>Crear actividad</h1>
-      <form onSubmit={(e) => handleSubmit(e)} className={style.form}>
+      <form onSubmit={(e) => handleSubmit(e)} className={style.form} autocomplete="off">
         <div className={style.label}>
           <label>Nombre de la actividad: </label>
           <input

@@ -1,5 +1,6 @@
 import axios from "axios";
 
+
 export const GET_COUNTRIES = "GET_COUNTRIES";
 export const GET_COUNTRY_BY_ID = "GET_COUNTRY_BY_ID";
 export const GET_COUNTRY_BY_NAME = "GET_COUNTRY_BY_NAME";
@@ -107,7 +108,8 @@ export const getCountryById = (id) => (dispatch) => {
     })
     .catch((error) => {
       console.log(error)
-      return alert ('Pais no encontrado')
+      alert('Pais no encontrado')
+      return dispatch({type:GET_COUNTRIES, payload: []})
     })
 };
 
